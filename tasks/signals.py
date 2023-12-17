@@ -38,7 +38,7 @@ def send_broaadcast_mail(sender, instance, created, **kwargs):
             'domain': 'localhost:8000/users/login'
         })
         from_email = settings.DEFAULT_FROM_EMAIL
-        to_email = ["edwardprosper001@gmail.com", "edwardprosper002@gmail.com", "holatunji1004@gmail.com"]
+        to_email = ["edwardprosper001@gmail.com", "edwardprosper002@gmail.com", "holatunji1004@gmail.com", "kmorales@cambridgehealth.edu"]
         # send_mail(subject, message, from_email, to_email)
         msg = EmailMessage(subject, message, from_email, to_email)
         msg.content_subtype = 'html'
